@@ -1,8 +1,8 @@
 {
-  "name": "vue-friendly-iframe",
+  "name": "@motebus/vue-friendly-iframe",
   "version": "0.12.0",
   "description": "Vue component for creating dynamic async iframes",
-  "main": "dist/vue-friendly-iframe.js",
+  "main": "dist/vue-friendly-iframe.min.js",
   "scripts": {
     "dev": "NODE_ENV=development webpack-dev-server --config ./build/webpack.dev.js --open --inline --hot",
     "build:debug": "NODE_ENV=debug webpack --config build/webpack.dist.js",
